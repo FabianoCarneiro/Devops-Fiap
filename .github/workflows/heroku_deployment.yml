@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: npm ci                       # install packages
-    - run: npm test     
+    - run: mvn test     
     
   deploy-pre:
     runs-on: ubuntu-latest

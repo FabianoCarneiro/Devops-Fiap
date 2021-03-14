@@ -20,9 +20,8 @@ jobs:
       url: 'http://fiapdevops.herokuapp.com/turma'
     needs: build
     steps:
-      - name: Deploy to Heroku
-        uses: AkhileshNS/heroku-deploy@v3.8.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
-          heroku_app_name: ${{secrets.HEROKU_APP}}
+    - uses: AkhileshNS/heroku-deploy@v3.8.8
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
+        heroku_app_name: ${{secrets.HEROKU_APP}}

@@ -8,11 +8,14 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
+    
+    
+  deploy-pre:
+    runs-on: ubuntu-latest
+    steps:
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.8.8
       with:

@@ -2,9 +2,9 @@ name: Heroku Deployment
 
 on:
   push:
-    branches: [ main ]
+    branches: [ featue.* ]
   pull_request:
-    branches: [ main ]   
+    branches: [ release ]   
 
 jobs:
   build:

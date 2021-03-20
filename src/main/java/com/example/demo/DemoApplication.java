@@ -50,6 +50,10 @@ public class DemoApplication {
 	@GetMapping("/sala1")
 	String sala1(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.1-sala1";
+}
+	@GetMapping("/sala2")
+	String sala2(){
+		return "Melhor 8AGL - sala2";
 	}
 	
 }

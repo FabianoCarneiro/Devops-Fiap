@@ -47,6 +47,10 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
+	@GetMapping("/sala3")
+	String turma(){
+		return "DEVOPS FIAP 8AGL - VERSAO 3.0 - SALA 3 - MELHOR 8AGL";
+}
 	@GetMapping("/sala1")
 	String sala1(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.1-sala1";
@@ -54,6 +58,7 @@ public class DemoApplication {
 	@GetMapping("/sala2")
 	String sala2(){
 		return "Melhor 8AGL - sala2";
+
 	}
 	
 }

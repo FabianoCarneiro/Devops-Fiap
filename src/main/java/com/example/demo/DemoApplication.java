@@ -47,4 +47,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
+	@GetMapping("/sala2")
+	String sala2(){
+		return "Melhor 8AGL - sala2";
+	}
+	
 }

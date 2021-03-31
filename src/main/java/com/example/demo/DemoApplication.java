@@ -47,6 +47,10 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
-
+	@GetMapping("/superGrupoDoNate")
+	String turma(){
+		return "Esse é o melhor grupo da melhor sala da FIAP";
+	}
+	
 	
 }

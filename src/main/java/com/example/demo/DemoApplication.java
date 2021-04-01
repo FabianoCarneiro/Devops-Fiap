@@ -51,5 +51,9 @@ public class DemoApplication {
 	String salaprof(){
 		return  "exercio devops sala prof";
 	}
+	@GetMapping("/Sala4")
+	String sala4(){
+		return  "exercio devops sala 04**";
+	}
 	
 }

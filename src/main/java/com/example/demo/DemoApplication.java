@@ -49,7 +49,7 @@ public class DemoApplication {
 
 	@GetMapping("/grupoSala2")
 	String grupoSala2(){
-		return "O que faz a função @getMapping? What does the fox say?";
+		return "O que faz a função @getMapping?";
 	}
 	
 	

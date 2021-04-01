@@ -62,5 +62,8 @@ public class DemoApplication {
 	String featureSala1(){
 		return "Hello world!";
 	}
-	
+	@GetMapping ("/Feature-Sala3")
+	String  turma() {
+		retornar   "exercio devops Feature-Sala3";
+	}
 }

@@ -46,10 +46,16 @@ public class DemoApplication {
 	String turma(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
+
+	@GetMapping("/grupoSala2")
+	String grupoSala2(){
+		return "O que faz a função @getMapping?";
+	}
+	
 	
 	@GetMapping("/SalaProf")
 	String salaprof(){
-		return  "exercio devops sala prof";
+		return  "exercio devops sala professor";
 	}
 	
 	@GetMapping("/featureSala1")

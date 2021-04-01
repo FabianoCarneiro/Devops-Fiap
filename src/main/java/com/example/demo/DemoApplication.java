@@ -47,6 +47,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
-
+	@GetMapping("/SalaProf")
+	String salaprof(){
+		return  "exercio devops sala professor";
+	}
 	
 }

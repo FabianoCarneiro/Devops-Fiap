@@ -46,10 +46,10 @@ public class DemoApplication {
 	String turma(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
-	
-	@GetMapping("/superGrupoDoNate")
-	String turma(){
-		return "Esse é o melhor grupo da melhor sala da FIAP";
+
+	@GetMapping("/grupoSala2")
+	String grupoSala2(){
+		return "O que faz a função @getMapping? What does the fox say?";
 	}
 	
 	

@@ -52,4 +52,9 @@ public class DemoApplication {
 		return  "exercio devops sala prof";
 	}
 	
+	@GetMapping("/featureSala1")
+	String featureSala1(){
+		return "Hello world!";
+	}
+	
 }

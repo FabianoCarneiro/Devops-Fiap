@@ -42,9 +42,9 @@ public class DemoApplication {
 		return new Date().toString();
 	}
 	
-	@GetMapping("/agl")
+	@GetMapping("/sala2")
 	String turma(){
-		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
+		return "DEVOPS FIAP 143GTI Sala 2 - VERSAO 1.0";
 	}
 	
 

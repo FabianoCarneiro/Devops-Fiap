@@ -47,7 +47,7 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
-	@GetMapping("/agl")
+	@GetMapping("/mitsuo")
 	String sala1(){
 		return "Lucas Mitsuo, ABRA O SEU GITHUB e pare de migué!";
 	}

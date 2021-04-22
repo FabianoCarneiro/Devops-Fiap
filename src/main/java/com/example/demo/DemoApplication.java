@@ -47,4 +47,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
 	
+	@GetMapping("/prof")
+	String prof(){
+		return "EXERCICIO DEVOPS SALA PROF";
+	}	
+	
 }

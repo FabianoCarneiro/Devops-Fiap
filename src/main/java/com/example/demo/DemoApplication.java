@@ -55,6 +55,6 @@ public class DemoApplication {
   
 	@GetMapping("/prof")
 	String prof(){
-		return "TESTE DE HOMOLOGACAO";
+		return "TESTE DE HOTFIX";
 	}
 }	

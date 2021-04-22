@@ -46,4 +46,9 @@ public class DemoApplication {
 	String turma(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
+	
+	@GetMapping("/agl")
+	String sala1(){
+		return "Lucas Mitsuo, ABRA O SEU GITHUB e pare de migué!";
+	}
 }

@@ -46,4 +46,9 @@ public class DemoApplication {
 	String turma(){
 		return "DEVOPS FIAP 8AGL - VERSAO 1.0";
 	}
+	
+	@GetMapping("/prof")
+	String turma(){
+		return "EXERCICIO DEVOPS SALA PROF";
+	}	
 }

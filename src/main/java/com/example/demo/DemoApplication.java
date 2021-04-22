@@ -56,4 +56,5 @@ public class DemoApplication {
 	@GetMapping("/prof")
 	String prof(){
 		return "EXERCICIO DEVOPS SALA PROF";
-	}	
+	}
+}	

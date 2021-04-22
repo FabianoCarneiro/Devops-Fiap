@@ -48,7 +48,8 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/prof")
-	String turma(){
+	String prof(){
 		return "EXERCICIO DEVOPS SALA PROF";
 	}	
+	
 }

@@ -42,19 +42,9 @@ public class DemoApplication {
 		return new Date().toString();
 	}
 	
-	@GetMapping("/sala2")
+	@GetMapping("/fiap")
 	String turma(){
-		return "DEVOPS FIAP 143GTI Sala 2 - VERSAO 1.0";
+		return "DEVOPS FIAP - VERSAO 1.0";
 	}
 	
-
-	@GetMapping("/mitsuo")
-	String sala1(){
-		return "Lucas Mitsuo, ABRA O SEU GITHUB e pare de migué!";
-	}
-  
-	@GetMapping("/prof")
-	String prof(){
-		return "TESTE DE HOMOLOGACAO";
-	}
 }	

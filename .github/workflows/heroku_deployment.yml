@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pre
-      url: 'http://fiapdevops.herokuapp.com/agl'
+      url: 'http://fiapdevops.herokuapp.com/fiap'
     needs: build
     steps:
     - uses: actions/checkout@v2

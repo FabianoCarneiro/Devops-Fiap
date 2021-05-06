@@ -48,7 +48,11 @@ public class DemoApplication {
 	}
 
 
-	
+	@GetMapping("/grupo-1")
+	String grupo1(){
+		return "GRUPO 1 PASSOU POR AQUI"; // <3
+	}
+  
 	@GetMapping("/sala-03")
 	String turma2(){
 		return "DEVOPS FIAP da Sala 3 - VERSAO 1.0";
@@ -58,5 +62,6 @@ public class DemoApplication {
 	String salaKarla(){
 		return "DEVOPS FIAP salaKarla - VERSAO 1.0";
 	}	
+
 
 }	

@@ -47,6 +47,13 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 	}
 
+
+	
+	@GetMapping("/sala-03")
+	String turma2(){
+		return "DEVOPS FIAP da Sala 3 - VERSAO 1.0";
+	}
+	
 	@GetMapping("/salaKarla") //sala karla
 	String salaKarla(){
 		return "DEVOPS FIAP salaKarla - VERSAO 1.0";

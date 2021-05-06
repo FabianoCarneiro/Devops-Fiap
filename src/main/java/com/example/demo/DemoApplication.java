@@ -48,7 +48,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/grupo-1")
-	String turma(){
+	String grupo1(){
 		return "GRUPO 1 PASSOU POR AQUI"; // <3
 	}
 }	

@@ -47,7 +47,7 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 	}
 
-	@GetMapping("/salaKarla")
+	@GetMapping("/salaKarla") //sala karla
 	String salaKarla(){
 		return "DEVOPS FIAP salaKarla - VERSAO 1.0";
 	}	

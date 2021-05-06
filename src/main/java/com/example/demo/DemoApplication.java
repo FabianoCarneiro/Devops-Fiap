@@ -47,4 +47,8 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 	}
 	
+	@GetMapping("/grupo-1")
+	String turma(){
+		return "GRUPO 1 PASSOU POR AQUI"; // <3
+	}
 }	

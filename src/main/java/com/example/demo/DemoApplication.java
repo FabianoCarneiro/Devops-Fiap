@@ -48,6 +48,14 @@ public class DemoApplication {
 
 	}
 	
+	@GetMapping("/fiap_sala02")
+	String fiap_sala02(){
+		return "DEVOPS FIAP - VERSAO 2.0 - Sala 02";
+	}
+
+
+	}
+	
 	@GetMapping("/sala01")
 	String sala01(){
 		return "Correção bug urgente 18/06 - Deploy 18:00";
@@ -62,5 +70,6 @@ public class DemoApplication {
 		return "DEVOPS Sala 03 - Deploying and GO Horse!";
 	}
 	
+
 
 }	

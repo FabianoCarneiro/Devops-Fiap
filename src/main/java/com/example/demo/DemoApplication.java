@@ -53,5 +53,4 @@ public class DemoApplication {
 		return "DEVOPS Sala 03 - Deploying and GO Horse!";
 	}
 	
-	}	
 }	

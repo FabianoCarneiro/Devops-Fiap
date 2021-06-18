@@ -48,7 +48,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/sala01")
-	String turma(){
+	String sala01(){
 		return "Correção bug urgente 18/06 - Deploy 18:00";
 	}
 

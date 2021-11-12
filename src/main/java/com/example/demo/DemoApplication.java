@@ -49,5 +49,9 @@ public class DemoApplication {
 	}
 	
 
+	@GetMapping("/david")
+	String david(){
+		return "DEVOPS FIAP - Feature David - Time Galo Preto";
+	}
 
 }	

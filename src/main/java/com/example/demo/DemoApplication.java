@@ -48,6 +48,7 @@ public class DemoApplication {
 
 	}
 
+
 	@GetMapping("/marcelo")
 	String marcelo(){
 		return "DEVOPS FIAP - #vaicorinthians #forasilvinho";
@@ -57,5 +58,13 @@ public class DemoApplication {
 	String david(){
 		return "DEVOPS FIAP - Feature David - Time Galo Preto";
 	}
+
+
+	
+	@GetMapping("/prof")
+	String prof(){
+		return "DEVOPS FIAP - Feature Prof";
+	}	
+	
 
 }	

@@ -52,4 +52,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP - Feature Prof";
 	}	
 	
+	@GetMapping("/fiap")
+	String turma(){
+		return "DEVOPS FIAP - David é um gatinho ;)";
+	}
+	
 }	

@@ -47,4 +47,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 	}
 	
+	@GetMapping("/painel-carro")
+	String getPainel(){
+		return "Painel Luxuoso";
+	}
+	
 }	

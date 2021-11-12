@@ -45,11 +45,36 @@ public class DemoApplication {
 	@GetMapping("/fiap")
 	String turma(){
 		return "DEVOPS FIAP - VERSAO 1.0";
+
+	}
+
+
+	@GetMapping("/marcelo")
+	String marcelo(){
+		return "DEVOPS FIAP - #vaicorinthians #forasilvinho";
+	}
+
+	@GetMapping("/david")
+	String david(){
+		return "DEVOPS FIAP - Feature David - Time Galo Preto";
+	}
+
+
+	
+	@GetMapping("/prof")
+	String prof(){
+		return "DEVOPS FIAP - Feature Prof";
+	}	
+	
+
+	@GetMapping("/dani")
+	String dani(){
+		return "DEVOPS FIAP - David é um gatinho ;)";
 	}
 	
 	@GetMapping("/painel-carro")
 	String getPainel(){
 		return "Painel Luxuoso";
 	}
-	
+
 }	

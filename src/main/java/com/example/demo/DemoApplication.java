@@ -67,4 +67,10 @@ public class DemoApplication {
 	}	
 	
 
+	@GetMapping("/dani")
+	String dani(){
+		return "DEVOPS FIAP - David é um gatinho ;)";
+	}
+	
+
 }	

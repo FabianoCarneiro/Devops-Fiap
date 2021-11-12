@@ -72,5 +72,9 @@ public class DemoApplication {
 		return "DEVOPS FIAP - David é um gatinho ;)";
 	}
 	
+	@GetMapping("/painel-carro")
+	String getPainel(){
+		return "Painel Luxuoso";
+	}
 
 }	

@@ -48,8 +48,8 @@ public class DemoApplication {
 
 	}
 
-	@GetMapping("/fiap")
-	String turma(){
+	@GetMapping("/marcelo")
+	String marcelo(){
 		return "DEVOPS FIAP - #vaicorinthians #forasilvinho";
 	}
 

@@ -48,6 +48,10 @@ public class DemoApplication {
 
 	}
 	
+	@GetMapping("/FeatureFabiano")
+	String fabiano(){
+		return "FeatureFAbiano";
 
+	}
 
 }	

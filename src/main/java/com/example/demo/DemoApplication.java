@@ -49,6 +49,12 @@ public class DemoApplication {
 	}
 
 	
+
+	
+	@GetMapping("/marina")
+	String marina(){
+		return "feature marina";
+
 	@GetMapping("/FeatureFabiano")
 	String fabiano(){
 		return "FeatureFAbiano";
@@ -56,5 +62,6 @@ public class DemoApplication {
 	}
 
 
+	}
 
 }	

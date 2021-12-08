@@ -48,6 +48,11 @@ public class DemoApplication {
 
 	}
 	
+	
+	@GetMapping("/marina")
+	String marina(){
+		return "feature marina";
 
+	}
 
 }	

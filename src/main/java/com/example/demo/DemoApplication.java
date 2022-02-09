@@ -41,26 +41,6 @@ public class DemoApplication {
 	String time(){
 		return new Date().toString();
 	}
-	
-	@GetMapping("/fiap")
-	String turma(){
-		return "DEVOPS carlota - VERSAO 1.0";
-
-	}
-
-	
-
-	
-	@GetMapping("/marina")
-	String marina(){
-		return "feature marina";
-	}
-
-	@GetMapping("/FeatureFabiano")
-	String fabiano(){
-		return "FeatureFAbiano";
-
-	}
 
 
 	}

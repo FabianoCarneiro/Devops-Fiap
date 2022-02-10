@@ -49,6 +49,15 @@ public class DemoApplication {
 
 
 	}	
+
+	
+	
+	@GetMapping("/grupo-3")
+	String grupo3(){
+		return "Feature do grupo 3";
+
+	}
+
 	@GetMapping("/Grupo1")
 	String grupo1(){
 		return "Trabalho do Grupo 1";
@@ -62,5 +71,6 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO da Sala 4";
 
 	}
+
 
 }	

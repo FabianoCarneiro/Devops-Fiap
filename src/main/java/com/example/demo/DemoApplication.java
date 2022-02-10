@@ -41,6 +41,7 @@ public class DemoApplication {
 	String time(){
 		return new Date().toString();
 	}
+
 	
 	@GetMapping("/fiap")
 	String turma(){

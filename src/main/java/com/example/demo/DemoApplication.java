@@ -41,12 +41,15 @@ public class DemoApplication {
 	String time(){
 		return new Date().toString();
 	}
+
 	
 	@GetMapping("/fiap")
 	String turma(){
 		return "DEVOPS FIAP - VERSAO 1.0";
 
+
 	}	
+
 	
 	
 	@GetMapping("/grupo-3")
@@ -54,4 +57,20 @@ public class DemoApplication {
 		return "Feature do grupo 3";
 
 	}
+
+	@GetMapping("/Grupo1")
+	String grupo1(){
+		return "Trabalho do Grupo 1";
+
+	}	
+
+
+	
+	@GetMapping("/sala4")
+	String sala4(){
+		return "DEVOPS FIAP - VERSAO da Sala 4";
+
+	}
+
+
 }	

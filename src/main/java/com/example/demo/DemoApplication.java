@@ -50,7 +50,7 @@ public class DemoApplication {
 	
 	
 	@GetMapping("/grupo-3")
-	String turma(){
+	String grupo3(){
 		return "Feature do grupo 3";
 
 	}

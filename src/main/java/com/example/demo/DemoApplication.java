@@ -41,7 +41,6 @@ public class DemoApplication {
 	String time(){
 		return new Date().toString();
 	}
-
 	
 	@GetMapping("/fiap")
 	String turma(){
@@ -51,8 +50,8 @@ public class DemoApplication {
 
 	@GetMapping("/gti150")
 	String turma(){
-		return "DEVOPS FIAP - GTI150 - VERSAO 150";
+		return "DEVOPS FIAP - VERSAO GTI150 (SMR)";
 		
 	}
-
+	
 }	

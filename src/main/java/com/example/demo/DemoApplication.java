@@ -49,5 +49,10 @@ public class DemoApplication {
 		
 	}
 
+	@GetMapping("/gti150")
+	String turma(){
+		return "DEVOPS FIAP - GTI150 - VERSAO 150";
+		
+	}
 
 }	

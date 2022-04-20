@@ -53,5 +53,12 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO GTI150 (SMR)";
 		
 	}
-	
+
+	@GetMapping("/featureProf")
+	String prof(){
+		return "Essa e a feature do Prof";
+		
+	}
+
+
 }	

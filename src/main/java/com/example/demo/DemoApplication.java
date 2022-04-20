@@ -49,5 +49,10 @@ public class DemoApplication {
 		
 	}
 
+	@GetMapping("/featureProf")
+	String prof(){
+		return "Essa e a feature do Prof";
+		
+	}
 
 }	

@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: mvn test   
+      with:
+        fetch-depth: 0
+        
+   # - run: mvn test  
     
     - name: Generate JaCoCo Badge
       id: jacoco

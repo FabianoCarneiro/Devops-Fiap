@@ -56,7 +56,7 @@ public class DemoApplication {
 
 	@GetMapping("/gti150")
 	String gti150(){
-		return "DEVOPS FIAP - VERSAO GTI150 (SMR)";
+		return "DEVOPS FIAP - VERSAO GTI150(SMR)";
 		
 	}
 

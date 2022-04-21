@@ -28,7 +28,7 @@ public class DemoApplication {
 	@GetMapping("/secured-admin")
 	@PreAuthorize("hasRole('ROLE_admin')")
 	public String securedAdmin(){
-		return "Only admin can see this";
+		return "Only admin can see  this";
 	}
 	
 	@GetMapping("/public")

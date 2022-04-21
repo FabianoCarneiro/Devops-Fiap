@@ -49,7 +49,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/feature-sala3")
-	String turma()
+	String sala3()
 	{
 	   return "DEVOPS FIAP - VERSAO 1.0";
 	}

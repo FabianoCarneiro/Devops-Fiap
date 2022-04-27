@@ -52,7 +52,7 @@ public class DemoApplication {
 	@GetMapping("/feature-sala3")
 	String sala3()
 	{
-	   return "DEVOPS FIAP - VERSAO  1.0";
+	   return "DEVOPS FIAP - VERSAO  2.0";
 	}
 
 	@GetMapping("/gti150")

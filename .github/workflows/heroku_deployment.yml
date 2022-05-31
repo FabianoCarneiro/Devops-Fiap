@@ -62,12 +62,12 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=FabianoCarneiro_150GTI
-    - name: SonarQube Quality Gate check
-      uses: sonarsource/sonarqube-quality-gate-action@master
+   # - name: SonarQube Quality Gate check
+   #   uses: sonarsource/sonarqube-quality-gate-action@master
       # Force to fail step after specific time
-      timeout-minutes: 5
-      env:
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+   #   timeout-minutes: 5
+   #   env:
+   #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
        
   deploy-pre:
     runs-on: ubuntu-latest

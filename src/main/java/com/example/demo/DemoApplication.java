@@ -47,25 +47,4 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 		
 	}
-
-	
-	@GetMapping("/feature-sala3")
-	String sala3()
-	{
-	   return "DEVOPS FIAP - VERSAO  1.0";
-	}
-
-	@GetMapping("/gti150")
-	String gti150(){
-		return "DEVOPS FIAP - VERSAO GTI150(SMR)";
-		
-	}
-
-	@GetMapping("/featureProf")
-	String prof(){
-		return "Essa e a feature do Prof";
-		
-	}
-
-
 }	

@@ -50,7 +50,7 @@ public class DemoApplication {
 	
 	@GetMapping("/prof")
 	String prof(){
-		return "DEVOPS FIAP - feature Prof";
+		return "DEVOPS FIAP - feature Professor";
 		
 	}	
 }	

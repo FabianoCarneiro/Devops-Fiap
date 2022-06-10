@@ -49,7 +49,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/Sala3")
-	String Sala3(){
+	String turma(){
 		return "DEVOPS FIAP - Sala 3 top";
 		
 	}

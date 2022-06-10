@@ -28,7 +28,7 @@ public class DemoApplication {
 	@GetMapping("/secured-admin")
 	@PreAuthorize("hasRole('ROLE_admin')")
 	public String securedAdmin(){
-		return "Only admin can see this";
+		return "Only admin can see  this";
 	}
 	
 	@GetMapping("/public")
@@ -48,11 +48,29 @@ public class DemoApplication {
 		
 	}
 	
+
 	@GetMapping("/Sala3")
 	String turma(){
 		return "DEVOPS FIAP - Sala 3 top";
 		
 	}
+
+
+
+	@GetMapping("/featureSala1")
+	String turmaSala1(){
+		return "DEVOPS FIAP 16 AGL - VERSAO 1.1";
+		
+	}
+
+	@GetMapping("/prof")
+	String prof(){
+		return "DEVOPS FIAP - Feature do Prof";
+		
+	}	
+
+
+
 
 
 }	

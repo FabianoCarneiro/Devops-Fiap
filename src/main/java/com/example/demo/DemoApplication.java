@@ -48,9 +48,20 @@ public class DemoApplication {
 		
 	}
 	
+
 	@GetMapping("/featureSala1")
 	String turmaSala1(){
 		return "DEVOPS FIAP 16 AGL - VERSAO 1.1";
 		
 	}
+
+	@GetMapping("/prof")
+	String prof(){
+		return "DEVOPS FIAP - Feature do Prof";
+		
+	}	
+
+
+
+
 }	

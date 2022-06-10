@@ -48,8 +48,8 @@ public class DemoApplication {
 		
 	}
 	
-	@GetMapping("/fiap")
-	String turma(){
+	@GetMapping("/Sala3")
+	String Sala3(){
 		return "DEVOPS FIAP - Sala 3 top";
 		
 	}

@@ -50,7 +50,7 @@ public class DemoApplication {
 	
 
 	@GetMapping("/Sala3")
-	String turma(){
+	String sala3(){
 		return "DEVOPS FIAP - Sala 3 top";
 		
 	}

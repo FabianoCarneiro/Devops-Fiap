@@ -47,5 +47,11 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 		
 	}
+	
+	@GetMapping("/featureJoao")
+	String featureJoao(){
+		return "FEATURE JOAO";
+		
+	}
 
 }	

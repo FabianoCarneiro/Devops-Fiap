@@ -48,4 +48,13 @@ public class DemoApplication {
 		
 	}
 
+		}
+	
+	@GetMapping("/fiap")
+	String Diego(){
+		return "DEVOPS FIAP - VERSAO Diego 1.0";
+		
+	}
+	
+	
 }	

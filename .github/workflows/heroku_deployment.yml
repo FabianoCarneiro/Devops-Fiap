@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pre
-      url: 'http://fiapdevops.herokuapp.com/fiap'
+      url: 'https://fiapdevops.herokuapp.com/fiap'
     needs: code-analisys
     steps:
     - uses: actions/checkout@v2

@@ -54,10 +54,11 @@ public class DemoApplication {
 		
 	}
 
-	
+
 	@GetMapping("/diego")
 	String diego(){
-		return "DEVOPS FIAP - VERSAO Diego 1.0";
+		return "DEVOPS FIAP - VERSAO do Diego 1.0";
+
 		
 	}
 	

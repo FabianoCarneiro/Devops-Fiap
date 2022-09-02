@@ -47,11 +47,18 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO SALA 2";
 		
 	}
-
 	
-	@GetMapping("/fiap")
-	String Diego(){
+	@GetMapping("/featureJoao")
+	String featureJoao(){
+		return "FEATURE JOAO";
+		
+	}
+
+
+	@GetMapping("/diego")
+	String diego(){
 		return "DEVOPS FIAP - VERSAO do Diego 1.0";
+
 		
 	}
 	

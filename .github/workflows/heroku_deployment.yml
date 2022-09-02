@@ -74,7 +74,7 @@ jobs:
     environment:
       name: pre
 
-      url: 'http://fiapdevops2.herokuapp.com/fiap'
+      url: 'https://fiapdevops.herokuapp.com/fiap'
 
     needs: code-analisys
     steps:

@@ -56,9 +56,5 @@ public class DemoApplication {
 		
 	}
 	
-	@GetMapping("/prof")
-	String turma(){
-		return "Feature Prof";
-		
-	}
+
 }	

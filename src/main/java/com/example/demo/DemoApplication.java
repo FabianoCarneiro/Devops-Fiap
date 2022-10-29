@@ -49,6 +49,13 @@ public class DemoApplication {
 
 	}
 	
+
+	@GetMapping("/malelejan")
+	String teste(){
+		return "hello world";
+		
+	}
+
 	@GetMapping("/prof")
 	String prof(){
 		return "Feature Prof";

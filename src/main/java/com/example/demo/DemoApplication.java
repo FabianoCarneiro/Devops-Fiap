@@ -42,12 +42,6 @@ public class DemoApplication {
 		return new Date().toString();
 	}
 	
-	@GetMapping("/fiap")
-	String turma(){
-		return "DEVOPS FIAP - VERSAO 1.0";
-		
-	}
-	
 
 	@GetMapping("/fiap")
 	String turma(){

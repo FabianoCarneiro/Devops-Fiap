@@ -45,6 +45,12 @@ public class DemoApplication {
 
 	@GetMapping("/fiap")
 	String turma(){
+		return "DEVOPS FIAP - VERSAO 1.0";
+		
+	}
+	
+	@GetMapping("/agl")
+	String agileiros(){
 		return "Teste agileiros";
 		
 

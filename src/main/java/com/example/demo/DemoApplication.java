@@ -47,7 +47,17 @@ public class DemoApplication {
 	String turma(){
 		return "Teste agileiros";
 		
+
 	}
 	
+
+	@GetMapping("/prof")
+	String prof(){
+		return "Feature Prof";
+		
+	}	
+
+
+
 
 }	

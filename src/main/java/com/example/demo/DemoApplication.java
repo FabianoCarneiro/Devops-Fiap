@@ -48,8 +48,7 @@ public class DemoApplication {
 		
 	}
 	
-	
-	
+
 	@GetMapping("/fiap")
 	String turma(){
 		return "Teste agileiros";

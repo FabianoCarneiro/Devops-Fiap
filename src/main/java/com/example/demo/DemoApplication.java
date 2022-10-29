@@ -47,4 +47,12 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 		
 	}
+	
+		}
+	
+	@GetMapping("/natyecarla")
+	String turma(){
+		return "AULA DO PROFESSOR FABIANO ";
+		
+	}
 }	

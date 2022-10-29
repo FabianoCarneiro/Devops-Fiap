@@ -52,7 +52,7 @@ public class DemoApplication {
 	
 	@GetMapping("/natyecarla")
 	String turma(){
-		return "AULA DO PROFESSOR FABIANO ";
+		return "AULA DE DEVELOPS - NATY E CARLA ";
 		
 	}
 }	

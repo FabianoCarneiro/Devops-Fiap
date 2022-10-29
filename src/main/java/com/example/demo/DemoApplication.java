@@ -49,7 +49,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/malelejan")
-	String turma(){
+	String teste(){
 		return "hello world";
 		
 	}

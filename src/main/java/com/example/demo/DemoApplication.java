@@ -48,6 +48,14 @@ public class DemoApplication {
 		
 	}
 	
+	
+	
+	@GetMapping("/fiap")
+	String turma(){
+		return "Teste agileiros";
+		
+	}
+	
 	@GetMapping("/prof")
 	String turma(){
 		return "Feature Prof";

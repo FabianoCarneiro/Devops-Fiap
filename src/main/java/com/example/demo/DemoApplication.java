@@ -51,7 +51,7 @@ public class DemoApplication {
 		}
 	
 	@GetMapping("/natyecarla")
-	String turma(){
+	String natyecarla(){
 		return "AULA DE DEVELOPS - NATY E CARLA ";
 		
 	}

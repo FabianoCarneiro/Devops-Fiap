@@ -47,5 +47,11 @@ public class DemoApplication {
 		return "DEVOPS FIAP - VERSAO 1.0";
 		
 	}
+	
+	@GetMapping("/room2")
+	String turma(){
+		return "DEVOPS FIAP - VERSAO ROOM 2";
+		
+	}
 
 }	

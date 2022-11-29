@@ -56,7 +56,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/room2")
-	String turma(){
+	String turma2(){
 		return "DEVOPS FIAP - VERSAO ROOM 2";
 		
 	}

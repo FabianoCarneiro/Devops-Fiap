@@ -48,4 +48,11 @@ public class DemoApplication {
 
 		
 	}
+
+	@GetMapping("/maritacas do ronnie")
+	String turma(){
+		return "DEVOPS FIAP - VERSAO 1.0";
+		
+	}
+
 }	

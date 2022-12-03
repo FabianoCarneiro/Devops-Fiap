@@ -48,23 +48,4 @@ public class DemoApplication {
 
 		
 	}
-	
-	@GetMapping("/featureEduardoBorges")
-	String turmaFeatureEduardoBorges(){
-		return "DEVOPS FIAP - VERSAO 1.0 - Eduardo Borges";
-		
-	}
-	
-	@GetMapping("/room2")
-	String turma2(){
-		return "DEVOPS FIAP - VERSAO ROOM 2";
-		
-	}
-	
-	@GetMapping("/fiaproom1")
-	String turmaroom1(){
-		return "DEVOPS FIAP - VERSAO 1.0 - room is the best";
-		
-	}
-
 }	

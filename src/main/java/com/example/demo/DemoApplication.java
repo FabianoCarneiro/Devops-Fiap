@@ -57,7 +57,7 @@ public class DemoApplication {
 	
 	@GetMapping("/prof")
 	String prof(){
-		return "DEVOPS FIAP - VERSAO 1.0";
+		return "DEVOPS prof - VERSAO 1.0";
 		
 	}
 	

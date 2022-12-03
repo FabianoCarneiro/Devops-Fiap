@@ -50,7 +50,7 @@ public class DemoApplication {
 	}
 
 	@GetMapping("/maritacas do ronnie")
-	String turma(){
+	String maritacas(){
 		return "DEVOPS FIAP - VERSAO 1.0";
 		
 	}

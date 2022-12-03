@@ -48,4 +48,8 @@ public class DemoApplication {
 		
 	}
 
-}	
+@GetMapping("/Karlitinha")
+	String turma(){
+		return "turma 20AGL - DEVOPS FIAP - VERSAO 1.1";
+		
+	}	

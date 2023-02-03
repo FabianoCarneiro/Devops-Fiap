@@ -48,18 +48,6 @@ public class DemoApplication {
 
 		
 	}
-
-	@GetMapping("/maritacas do ronnie")
-	String maritacas(){
-		return "DEVOPS FIAP - VERSAO 1.0";
-		
-	}
-	
-	@GetMapping("/prof")
-	String prof(){
-		return "DEVOPS prof - VERSAO 1.0";
-		
-	}
 	
 
 }	

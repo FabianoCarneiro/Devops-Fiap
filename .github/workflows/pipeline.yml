@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -31,8 +30,7 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         package: '*.jar'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
     - name: Publish to GitHub Packages Apache Maven
       run: mvn --batch-mode deploy 
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ secrets..GITHUB_TOKEN }}

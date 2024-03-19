@@ -62,6 +62,19 @@ jobs:
         run:
           echo "Deploy Pre"
 
+  deploy-Prod:
+    runs-on: ubuntu-latest
+    environment: 
+      name: prod
+    needs: publish
+
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy
+        shell: bash
+        run:
+          echo "Deploy Prod"
+
           
 
 

@@ -34,3 +34,36 @@ jobs:
       run: mvn --batch-mode deploy 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+  deploy-STG:
+    runs-on: ubuntu-latest
+    environment: 
+      name: stg
+    needs: publish
+
+    if: github.ref == 'refs/heads/develop'
+    steps:
+      - name: Deploy
+        shell: bash
+        run:
+          echo "DEploy STG"
+
+  deploy-Pre:
+    runs-on: ubuntu-latest
+    environment: 
+      name: pre
+    needs: publish
+
+    if: github.ref == 'refs/heads/release'
+    steps:
+      - name: Deploy
+        shell: bash
+        run:
+          echo "Deploy Pre"
+
+          
+
+
+          
+        

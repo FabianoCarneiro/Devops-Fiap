@@ -82,7 +82,7 @@ jobs:
       - name: Deploy
         shell: bash
         run:
-          sh 'src/main/scripts/smoketest.sh'
+          sh 'src/test/scripts/smoketest.sh'
 
   deploy-Pre:
     runs-on: ubuntu-latest

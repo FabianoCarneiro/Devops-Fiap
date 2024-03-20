@@ -73,6 +73,17 @@ jobs:
         run:
           echo "DEploy STG"
 
+  Smoketest:
+    runs-on: ubuntu-latest
+    needs: deploy-STG
+    if: github.ref == 'refs/heads/develop'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy
+        shell: bash
+        run:
+          sh 'src/main/scripts/smoketest.sh'
+
   deploy-Pre:
     runs-on: ubuntu-latest
     environment: 
